@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>aboboc</dc:creator>
+  </rdf:Description>
+</rdf:RDF><version>7</version>
+
+<data>
+<title></title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>&amp;#x8ACB;&amp;#x554F;1+1=?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>2</text><feedback>&amp;#x003C;img 
+    src=&quot;https://png.pngtree.com/png-clipart/20210310/original/pngtree-little-yellow-man-happy-emoticon-pack-png-image_5936638.jpg&quot; 
+    alt=&quot;&amp;#x5FEB;&amp;#x6A02;&amp;#x7684;&amp;#x5C0F;&amp;#x9EC3;&amp;#x4EBA;&amp;#x8868;&amp;#x60C5;&amp;#x7B26;&amp;#x865F;&quot; 
+    style=&quot;width: 100px; height: 100px;&quot; 
+/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>3</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>4</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>&amp;#x9673;&amp;#x4F2F;&amp;#x798E;&amp;#x6700;&amp;#x559C;&amp;#x6B61;&amp;#x7684;&amp;#x7537;&amp;#x5076;&amp;#x50CF;&amp;#x662F;&amp;#x8AB0;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>&amp;#x5D14;&amp;#x7136;&amp;#x7AE3;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&amp;#x5D14;&amp;#x79C0;&amp;#x5F6C;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&amp;#x59DC;&amp;#x592A;&amp;#x986F;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&amp;#x9673;&amp;#x4F2F;&amp;#x798E;&amp;#x7684;&amp;#x8001;&amp;#x7238;</text><feedback>&amp;#x003C;!DOCTYPE html&amp;#x003E;
+&amp;#x003C;html lang=&quot;zh-TW&quot;&amp;#x003E;
+&amp;#x003C;head&amp;#x003E;
+    &amp;#x003C;meta charset=&quot;UTF-8&quot;&amp;#x003E;
+    &amp;#x003C;title&amp;#x003E;&amp;#x5716;&amp;#x7247;&amp;#x8207;&amp;#x56DE;&amp;#x994B;&amp;#x7279;&amp;#x6548;&amp;#x7BC4;&amp;#x4F8B;&amp;#x003C;/title&amp;#x003E;
+
+    &amp;#x003C;style&amp;#x003E;
+        /* --- 1. &amp;#x5716;&amp;#x7247;&amp;#x5927;&amp;#x5C0F;&amp;#x8A2D;&amp;#x5B9A; CSS --- */
+        .small-image {
+            width: 100px;  /* &amp;#x5BEC;&amp;#x5EA6;&amp;#x8A2D;&amp;#x5B9A;&amp;#x70BA; 100 &amp;#x50CF;&amp;#x7D20; */
+            height: 100px; /* &amp;#x9AD8;&amp;#x5EA6;&amp;#x8A2D;&amp;#x5B9A;&amp;#x70BA; 100 &amp;#x50CF;&amp;#x7D20; */
+            border: 1px solid #ccc; /* &amp;#x589E;&amp;#x52A0;&amp;#x908A;&amp;#x6846;&amp;#x8B93;&amp;#x5716;&amp;#x7247;&amp;#x66F4;&amp;#x6E05;&amp;#x6670; */
+            object-fit: cover; /* &amp;#x78BA;&amp;#x4FDD;&amp;#x5716;&amp;#x7247;&amp;#x586B;&amp;#x6EFF; 100x100 &amp;#x5340;&amp;#x57DF;&amp;#xFF0C;&amp;#x53EF;&amp;#x80FD;&amp;#x6703;&amp;#x88C1;&amp;#x526A;&amp;#x908A;&amp;#x7DE3;&amp;#x4F46;&amp;#x4E0D;&amp;#x6703;&amp;#x626D;&amp;#x66F2; */
+            border-radius: 5px; /* &amp;#x8F15;&amp;#x5FAE;&amp;#x5713;&amp;#x89D2; */
+        }
+
+        /* --- 2. &amp;#x6A21;&amp;#x64EC; JQuiz &amp;#x6210;&amp;#x529F;&amp;#x56DE;&amp;#x994B;&amp;#x7279;&amp;#x6548; CSS --- */
+        .Overall {
+            /* &amp;#x78BA;&amp;#x4FDD;&amp;#x56DE;&amp;#x994B;&amp;#x5340;&amp;#x57DF;&amp;#x5C45;&amp;#x4E2D;&amp;#x4E14;&amp;#x986F;&amp;#x773C; */
+            text-align: center;
+            padding: 30px;
+            margin: 40px auto; /* &amp;#x8B93;&amp;#x6574;&amp;#x500B;&amp;#x5340;&amp;#x584A;&amp;#x5C45;&amp;#x4E2D; */
+            max-width: 500px;
+            
+            /* &amp;#x9192;&amp;#x76EE;&amp;#x7684;&amp;#x80CC;&amp;#x666F;&amp;#x548C;&amp;#x908A;&amp;#x6846; */
+            background-color: #e6ffed; /* &amp;#x6DFA;&amp;#x7DA0;&amp;#x8272;&amp;#x80CC;&amp;#x666F;&amp;#xFF0C;&amp;#x4EE3;&amp;#x8868;&amp;#x6210;&amp;#x529F; */
+            border: 7px solid #4CAF50; /* &amp;#x7DA0;&amp;#x8272;&amp;#x7C97;&amp;#x908A;&amp;#x6846; */
+            border-radius: 20px; /* &amp;#x5927;&amp;#x5713;&amp;#x89D2; */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* &amp;#x5F37;&amp;#x70C8;&amp;#x9670;&amp;#x5F71;&amp;#x6548;&amp;#x679C; */
+            
+            /* &amp;#x6587;&amp;#x5B57;&amp;#x6A23;&amp;#x5F0F; */
+            color: #004d40; /* &amp;#x6DF1;&amp;#x7DA0;&amp;#x8272;&amp;#x6587;&amp;#x5B57; */
+            font-size: 30px; /* &amp;#x5927;&amp;#x5B57;&amp;#x9AD4; */
+            font-family: &apos;Arial&apos;, sans-serif;
+            font-weight: 900; /* &amp;#x8D85;&amp;#x7C97;&amp;#x9AD4; */
+            
+            /* &amp;#x52D5;&amp;#x756B;&amp;#x7279;&amp;#x6548;&amp;#xFF1A;&amp;#x8B93;&amp;#x56DE;&amp;#x994B;&amp;#x6846;&amp;#x5FAE;&amp;#x5FAE;&amp;#x9583;&amp;#x720D;&amp;#x6216;&amp;#x8108;&amp;#x52D5; */
+            animation: successPulse 1.5s infinite alternate; 
+        }
+
+        /* &amp;#x5B9A;&amp;#x7FA9;&amp;#x52D5;&amp;#x756B;&amp;#xFF1A;&amp;#x4E00;&amp;#x500B;&amp;#x8108;&amp;#x52D5;&amp;#x548C;&amp;#x984F;&amp;#x8272;&amp;#x8B8A;&amp;#x5316;&amp;#x7684;&amp;#x6548;&amp;#x679C; */
+        @keyframes successPulse {
+            0% {
+                transform: scale(1);
+                box-shadow: 0 0 10px rgba(76, 175, 80, 0.5); 
+            }
+            100% {
+                transform: scale(1.03); 
+                box-shadow: 0 0 30px #FFD700; /* &amp;#x91D1;&amp;#x8272;&amp;#x767C;&amp;#x5149; */
+            }
+        }
+    &amp;#x003C;/style&amp;#x003E;
+&amp;#x003C;/head&amp;#x003E;
+&amp;#x003C;body&amp;#x003E;
+
+    &amp;#x003C;h2&amp;#x003E;&amp;#x7DB2;&amp;#x8DEF;&amp;#x5716;&amp;#x7247;&amp;#x986F;&amp;#x793A; (100 x 100 &amp;#x50CF;&amp;#x7D20;)&amp;#x003C;/h2&amp;#x003E;
+    &amp;#x003C;img 
+        src=&quot;https://png.pngtree.com/png-clipart/20210310/original/pngtree-little-yellow-man-happy-emoticon-pack-png-image_5936638.jpg&quot; 
+        alt=&quot;&amp;#x5FEB;&amp;#x6A02;&amp;#x7684;&amp;#x5C0F;&amp;#x9EC3;&amp;#x4EBA;&amp;#x8868;&amp;#x60C5;&amp;#x7B26;&amp;#x865F;&quot; 
+        class=&quot;small-image&quot;
+    /&amp;#x003E;
+
+    &amp;#x003C;h2&amp;#x003E;&amp;#x6A21;&amp;#x64EC;&amp;#x5B78;&amp;#x751F;&amp;#x4F5C;&amp;#x7B54;&amp;#x6B63;&amp;#x78BA;&amp;#x7684;&amp;#x56DE;&amp;#x994B;&amp;#x003C;/h2&amp;#x003E;
+    &amp;#x003C;div class=&quot;Overall&quot;&amp;#x003E;
+        &amp;#xD83E;&amp;#xDD73; &amp;#x003C;strong&amp;#x003E;&amp;#x606D;&amp;#x559C;&amp;#x60A8;&amp;#xFF01;&amp;#x6EFF;&amp;#x5206;&amp;#x901A;&amp;#x904E;&amp;#xFF01;&amp;#x003C;/strong&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+        &amp;#x003C;span style=&quot;color: #d84315;&quot;&amp;#x003E;&amp;#x9019;&amp;#x4EFD;&amp;#x52AA;&amp;#x529B;&amp;#x503C;&amp;#x5F97;&amp;#x6240;&amp;#x6709;&amp;#x638C;&amp;#x8072;&amp;#xFF01;&amp;#xD83C;&amp;#xDF89;&amp;#x003C;/span&amp;#x003E;
+    &amp;#x003C;/div&amp;#x003E;
+
+&amp;#x003C;/body&amp;#x003E;
+&amp;#x003C;/html&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#D7B8F3</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#B8B8F3</ex-bg-color>
+<text-color>#232E21</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#F397D6</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>
